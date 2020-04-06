@@ -1,0 +1,65 @@
+
+
+    <div class="divRight">
+        <div class="main-graphic-view" *ngIf="barVerticalStacked">
+
+            <div class="box-graphic-view">
+                <ngx-charts-bar-vertical-stacked [view]="view" [scheme]="colorScheme" [results]="multi"
+                    [gradient]="gradient" [xAxis]="false" [yAxis]="false" [legend]="false" [legendPosition]='below'
+                    [showXAxisLabel]="showXAxisLabel" [showYAxisLabel]="showYAxisLabel" [xAxisLabel]="xAxisLabel"
+                    [yAxisLabel]="yAxisLabel" [animations]="animations" [roundDomains]="true" [barPadding]="20"
+                    [showDataLabel]="true" [gradient]="true" (select)="onSelect($event)">
+                </ngx-charts-bar-vertical-stacked>
+            </div>
+        </div>
+            <div class="xAxisLabels">
+                <div class=box-legend id="box-1" [@optionsLegendGraphic]="optionLegendGraphic1 ? 'open' : 'closed'"
+                    (mouseover)="optionLegendGraphic1=true" (mouseleave)="optionLegendGraphic1=false">
+                    <label class="lbl-legenda-graphic">ENCHEDORA</label>
+                </div>
+                <div class=box-legend id="box-2" [@optionsLegendGraphic]="optionLegendGraphic2 ? 'open' : 'closed'"
+                    (mouseover)="optionLegendGraphic2=true" (mouseleave)="optionLegendGraphic2=false">
+                    <label class="lbl-legenda-graphic">PALETIZADORA</label>
+                </div>
+                <div class=box-legend id="box-2" [@optionsLegendGraphic]="optionLegendGraphic3 ? 'open' : 'closed'"
+                    (mouseover)="optionLegendGraphic3=true" (mouseleave)="optionLegendGraphic3=false">
+                    <label class="lbl-legenda-graphic">EMPACOTADORA</label>
+                </div>
+
+                <div class=box-legend id="box-2" [@optionsLegendGraphic]="optionLegendGraphic4 ? 'open' : 'closed'"
+                    (mouseover)="optionLegendGraphic4=true" (mouseleave)="optionLegendGraphic4=false">
+                    <label class="lbl-legenda-graphic">SALA DE VÁLVULAS</label>
+                </div>
+                <div class=box-legend id="box-2" [@optionsLegendGraphic]="optionLegendGraphic5 ? 'open' : 'closed'"
+                    (mouseover)="optionLegendGraphic5=true" (mouseleave)="optionLegendGraphic5=false">
+                    <label class="lbl-legenda-graphic">LÍDER</label>
+                </div>
+                <div class=box-legend id="box-2" [@optionsLegendGraphic]="optionLegendGraphic6 ? 'open' : 'closed'"
+                    (mouseover)="optionLegendGraphic6=true" (mouseleave)="optionLegendGraphic6=false">
+                    <label class="lbl-legenda-graphic">SOPRADORA</label>
+                </div>
+                <div class=box-legend id="box-2" [@optionsLegendGraphic]="optionLegendGraphic7 ? 'open' : 'closed'"
+                    (mouseover)="optionLegendGraphic7=true" (mouseleave)="optionLegendGraphic7=false">
+                    <label class="lbl-legenda-graphic">ROTULADORA</label>
+                </div>
+                <div class=box-legend id="box-2" [@optionsLegendGraphic]="optionLegendGraphic8 ? 'open' : 'closed'"
+                    (mouseover)="optionLegendGraphic8=true" (mouseleave)="optionLegendGraphic8=false">
+                    <label class="lbl-legenda-graphic">SUPERVISOR PET</label>
+                </div>
+                <div class=box-legend id="box-2" [@optionsLegendGraphic]="optionLegendGraphic9 ? 'open' : 'closed'"
+                    (mouseover)="optionLegendGraphic9=true" (mouseleave)="optionLegendGraphic9=false">
+                    <label class="lbl-legenda-graphic">SUPERVISOR LATA</label>
+                </div>
+                <div class=box-legend id="box-2" [@optionsLegendGraphic]="optionLegendGraphic10 ? 'open' : 'closed'"
+                    (mouseover)="optionLegendGraphic10=true" (mouseleave)="optionLegendGraphic10=false">
+                    <label class="lbl-legenda-graphic">STAFF PACKING</label>
+                </div>
+                <div class=box-legend id="box-2" [@optionsLegendGraphic]="optionLegendGraphic11 ? 'open' : 'closed'"
+                    (mouseover)="optionLegendGraphic11=true" (mouseleave)="optionLegendGraphic11=false">
+                    <label class="lbl-legenda-graphic">MANUTENÇÃO</label>
+                </div>
+            </div>
+       
+    </div>
+
+

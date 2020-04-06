@@ -1,0 +1,83 @@
+*{font-family: 'AB InBev Headlines', sans-serif;
+    font-size: 20px;}
+    
+  
+    .divRight{
+        display: flexbox;
+        height: 100%;
+        width: 80%;
+        margin-left: 140px;
+        background-color: rgba(255, 255, 255, 0.692);
+        border-radius: 8PX;
+        border: solid 0.5px #ff6a1363;
+    box-shadow: 0px 0px 1px rgb(36, 36, 37);
+        
+    }
+    .main-graphic-view{
+        width: 73%;
+        height: 50%;
+        display: flex;
+        margin:auto;
+    }
+    ngx-charts-bar-vertical-stacked{
+        margin: auto;
+    }
+     .main-graphic-view .box-graphic-view{
+        width:100%;
+        height: 100%;
+        margin-left: -11%;
+        margin-top: 7%;
+    }
+    .divRight .xAxisLabels{
+        width: 100%;
+        height: 220px;
+        display: flex;
+        margin: auto;
+    }
+    .divRight .xAxisLabels .box-legend{
+        width: 67.5px;
+        height: 190px;
+        border-radius:4px ;
+        border: solid 0.5px #ff6a133f;
+    box-shadow: 0px 0px 1px rgb(36, 36, 37);
+    }
+    .divRight .xAxisLabels .box-legend .lbl-legenda-graphic{
+        writing-mode: vertical-lr;
+        font-size: 14px;
+        margin-left: 40%;
+        
+    }
+    
+    #box-1{
+        margin-left: 7.3%;
+    }
+    #box-2{
+        margin-left: 1.7%;
+    }
+ 
+    
+    .lbl-legenda-graphic{
+        margin-top: 6%;
+        width: 100%;
+        height: 100%;
+        font-size: 6px;
+        box-shadow: 0 0 0 0 rgba(0,0,0,0),0 0 0 0 rgba(0,0,0,0) !important;
+        border-bottom: 0px;
+        border:none!important;
+        background-color: rgba(64, 224, 208, 0);
+        cursor: pointer; 
+    }
+    
+    .img-chart{
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: 0 0 0 0 rgba(0,0,0,0),0 0 0 0 rgba(0,0,0,0) !important;
+        border-bottom: 0px;
+        border:none!important;
+        background-color: rgba(64, 224, 208, 0); 
+    }
+    
+    
+    

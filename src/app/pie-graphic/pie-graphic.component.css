@@ -1,0 +1,10 @@
+.main{
+    height: 100%;
+    width: 80%;
+    margin-left: 140px;
+    background-color: rgb(252, 252, 252);
+    border-radius: 8PX;
+    display: flex;
+    border: solid 0.5px #ff6a1363;
+    box-shadow: 0px 0px 1px rgb(36, 36, 37);
+}

@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="main">
+        <div class="graphic">
+             <ngx-charts-bar-vertical 
+                 [view]="viewBar" 
+                 [animations]="true"
+                 [scheme]="colorSchemeBar" 
+                 [results]="singlePie" 
+                 [gradient]="true"
+                 [xAxis]="true" 
+                 [yAxis]="false"  
+                 [legend]="false"
+                 [legendPosition]="right" 
+                 [legendTitle]="legendTitle"
+                 [showGridLines]="false"
+                 [roundDomains]='true'
+                 [showXAxisLabel]="false"
+                 [showYAxisLabel]="false" 
+                 [yAxisLabel]="yAxisLabel"
+                 [xAxisLabel]="yAxisLabel"
+                 [showDataLabel]="true"
+                 [noBarWhenZero]="true"
+                 [barPadding]="23"
+                 
+                 [roundEdges]="true"
+                (select)="onSelect($event)">
+             </ngx-charts-bar-vertical>
+        </div>
+        <div class="graphic">
+            <ngx-charts-pie-grid
+                 [view]="viewPie"
+                 [scheme]="colorSchemePie"
+                 [results]="singlePie"
+                 (select)="onSelect($event)">
+            </ngx-charts-pie-grid>
+        </div> 
+    </div>
+</div>

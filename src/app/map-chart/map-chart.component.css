@@ -1,0 +1,108 @@
+.main-box{
+    height: 100%;
+    width: 80%;
+    margin-left: 140px;
+    background-color: rgba(255, 255, 255, 0.692);
+    border-radius: 8PX;
+    border: solid 0.5px #ff6a1363;
+    box-shadow: 0px 0px 1px rgb(36, 36, 37);
+}
+.divFlex{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.divFlex .legendRight{
+    width: 25%;
+    
+}
+.divFlexbox{
+    width: 75%;
+    height: 100%;
+    
+}
+.divFlexbox .divGraphic{
+    width: 100%;
+    height: 80%;
+    margin-top: 2%;
+    margin-left: 120px;
+}
+
+.xAxisLabels{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    margin-top: -90px;
+    margin-left: 100px; 
+}
+.box-xAxis{
+    height: 180px;
+    writing-mode: vertical-lr;
+    font-size: 10px;
+    margin-top: -10px;
+    border: solid 0.5px #ff6a1363;
+    box-shadow: 0px 0px 1px rgb(36, 36, 37);
+    background-repeat: no-repeat;
+    background-position:50px;
+    color: #adaeb6;
+    width: 44.5px;
+    display: flex;
+    margin-left: 9.5px;
+    border-radius: 4px;
+}
+.box-xAxisInfo{
+    height: 180px;
+    writing-mode: vertical-lr;
+    font-size: 10px;
+    writing-mode:horizontal-tb;
+    border: solid 0.5px white;
+    background-color: #ff6a1331;
+    border: solid 0px white;
+    background-repeat: no-repeat;
+    background-position:50px;
+    color: #adaeb6;
+    width: 222px;
+    display: flex;
+    border-radius: 4px;
+    margin-left: -212px;
+    margin-top: -10px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#boxAxis1{
+    margin-left: 34.5px;
+}
+.yAxisLabels{
+   margin-left: 130px;
+}
+.box-yAxis{
+    height: 44.5px;
+    width: 250px;
+    font-size: 10px;
+    margin-left: 5px;
+    color: #adaeb6;
+    margin-left: 30px;
+    border-radius: 4px;
+    display: flex;
+    border: solid 0.5px #ff6a1363;
+    box-shadow: 0px 0px 1px rgb(36, 36, 37);
+    
+}
+#aplhaYboxAxis{
+    margin-top: 23.5px;
+}
+#yboxAxis{
+    margin-top: 8.5px;
+}
+.lbl-xAxis{
+margin-top: 5%;
+margin-left: 8%;
+}
+.lbl-yAxis{
+    margin-left: 5%;
+    margin-top: 8%;  
+}

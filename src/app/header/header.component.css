@@ -1,0 +1,179 @@
+*{
+    font-family: 'AB InBev Headlines', sans-serif;
+    color:rgba(84, 86, 90, 0.733);
+}
+.header{
+    width: 100vw;
+    min-height: 45px;
+    height: 63px;
+    background-color: rgb(249,249,249);
+    display: flexbox;
+    border-bottom: solid 1.3px rgb(249,249,249);
+    
+}
+.header .mainHeader{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+}
+.header .mainHeader .btnClick{
+    background-image:url(/assets/img/click/click40px.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 130px;
+    height: 56px;
+    box-shadow: 0 0 0 0 rgba(0,0,0,0),0 0 0 0 rgba(0,0,0,0) !important;
+    border-bottom: 0px;
+    border:none!important;
+    background-color: rgba(64, 224, 208, 0);
+    cursor: pointer; 
+}
+.header .mainHeader .persona{
+    display: flex;
+    margin-left: 67%;
+}
+
+.header .mainHeader .picPerfil{
+    background-image:url(/assets/img/persona/avatar32px.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90px;
+    height: 45px;
+    box-shadow: 0 0 0 0 rgba(0,0,0,0),0 0 0 0 rgba(0,0,0,0) !important;
+    border-bottom: 0px;
+    border:none!important;
+    background-color: rgba(64, 224, 208, 0); 
+}
+.header .mainHeader .divNomeCompleto {
+    width: 30%;
+    height: 100%;
+    display: flex;
+}
+
+.header .mainHeader .persona .lblNomeCompleto{
+     width: 100%;
+    height: 50%;
+    margin-top: 7%;
+    margin-left: 0;
+    font-size: 14px;
+    text-shadow: 0.0em 0.0em 0.2em rgb(173, 174, 182);
+}
+
+.lineHeader{
+    width: 100%;
+    height: 1px;
+    box-shadow: 1px 1px 3px #54565a91;
+}
+
+
+.banner{
+    width: 100%;
+    height: 64px;
+    padding: 40px 0;
+    background-image: linear-gradient(to right ,WHITE, white);
+}
+.banner .container{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.banner .container .vertical-flex{
+    font-family: "Moderat-Regular", sans-serif;
+    font-size: 13px;
+    color: #54565a;
+    display: flex;
+    
+
+}
+.box-return{
+    display: flex;
+    margin-left: 230px;
+    
+}
+.box-title{
+    display: flexbox;
+    margin-left: 30px;
+    
+}
+.title{
+    font-size: 32px;
+    font-family: "AB InBev Headlines", sans-serif;
+    color: #54565a;
+    
+}
+.fa{
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    
+}
+.subtitle{
+    font-size: 16px;
+    color: #adaeb6;
+    font-family: "Moderat-Regular", sans-serif;
+    padding: 5px;
+}
+ .row{
+    width: 100%;
+    height: 1.3px;
+    background-image: linear-gradient(to right, #FF6A13,rgb(186, 12, 47));
+    margin-bottom: 5px;
+    
+}
+.line{
+    margin-top: -1px;
+    width: 100vw;
+    height: 3px;
+    background-image: linear-gradient(rgba(186, 12, 47, 0.507), #FF6A13);
+}
+
+.headerPeople .mainHeaderPeople .Option{
+    display: flex;
+    margin: auto;
+    cursor: pointer;
+    height: 80%;
+}
+.headerPeople .mainHeaderPeople .Option .box-lbl-option {
+    margin-top: 10%;
+    
+}
+.headerPeople .mainHeaderPeople .Option .box-lbl-option .lbl-option{
+    color:white;
+    
+}
+
+.btnNoColor{
+    box-shadow: 0 0 0 0 rgba(0,0,0,0),0 0 0 0 rgba(0,0,0,0) !important;
+    border-bottom: 0px;
+    border:none!important;
+    background-color: rgba(64, 224, 208, 0); 
+}
+#btnPeople,#btnColaboradores,#btnShape{
+    font-family: 'ABInBevHeadlines', sans-serif;
+    font-size: 14px;
+}
+#btnShape{
+    width: 24px;
+    height: 24px;
+    background-image:url(/assets/img/paper-plane24px.png);
+    background-repeat: no-repeat;
+    
+    
+}
+#btnColaboradores{
+    width: 24px;
+    height: 24px;
+    background-image:url(/assets/img/colaboradores24px.png);
+    background-repeat: no-repeat;
+}
+
+.space{
+    width: 100%;
+    height: 3vh;
+    background-color: white;
+}
+.grayLine{
+    width: 100%;
+    height: 3px;
+    background-color: white;
+}

@@ -1,0 +1,107 @@
+<div class="main-box">
+  <div class="divFlex">
+    <div class="legendRight">
+
+      <div class="yAxisLabels">
+        <div class="box-yAxis" id=aplhaYboxAxis [@optionsLegendGraphicYaxis]="optionLegendGraphicYaxis1 ? 'open' : 'closed'"
+        (mouseover)="optionLegendGraphicYaxis1=true" (mouseleave)="optionLegendGraphicYaxis1=false">
+          <label class="lbl-yAxis">ESPECIALISTA DE PRODUTIVIDADE PLENO</label>
+        </div>
+        <div class="box-yAxis" id=yboxAxis [@optionsLegendGraphicYaxis]="optionLegendGraphicYaxis2 ? 'open' : 'closed'"
+        (mouseover)="optionLegendGraphicYaxis2=true" (mouseleave)="optionLegendGraphicYaxis2=false">
+          <label class="lbl-yAxis">SUPERVISOR PLENO FABRIL</label>
+        </div>
+
+        <div class="box-yAxis" id=yboxAxis [@optionsLegendGraphicYaxis]="optionLegendGraphicYaxis3 ? 'open' : 'closed'"
+        (mouseover)="optionLegendGraphicYaxis3=true" (mouseleave)="optionLegendGraphicYaxis3=false">
+          <label class="lbl-yAxis">SUPERVISOR FABRIL</label>
+        </div>
+        <div class="box-yAxis" id=yboxAxis [@optionsLegendGraphicYaxis]="optionLegendGraphicYaxis4 ? 'open' : 'closed'"
+        (mouseover)="optionLegendGraphicYaxis4=true" (mouseleave)="optionLegendGraphicYaxis4=false">
+          <label class="lbl-yAxis">TÉCNICO OPERADOR MASTER FABRIL</label>
+        </div>
+        <div class="box-yAxis" id=yboxAxis [@optionsLegendGraphicYaxis]="optionLegendGraphicYaxis5 ? 'open' : 'closed'"
+        (mouseover)="optionLegendGraphicYaxis5=true" (mouseleave)="optionLegendGraphicYaxis5=false">
+          <label class="lbl-yAxis">TÉCNICO OPERADOR SENIOR FABRIL</label>
+        </div>
+        <div class="box-yAxis" id=yboxAxis [@optionsLegendGraphicYaxis]="optionLegendGraphicYaxis6 ? 'open' : 'closed'"
+        (mouseover)="optionLegendGraphicYaxis6=true" (mouseleave)="optionLegendGraphicYaxis6=false">
+          <label class="lbl-yAxis">TECNICO OPERADOR FABRIL</label>
+        </div>
+        <div class="box-yAxis" id=yboxAxis [@optionsLegendGraphicYaxis]="optionLegendGraphicYaxis7 ? 'open' : 'closed'"
+        (mouseover)="optionLegendGraphicYaxis7=true" (mouseleave)="optionLegendGraphicYaxis7=false">
+          <label class="lbl-yAxis">TÉCNICO OPERADOR PLENO FABRIL</label>
+        </div>
+        <div class="box-yAxis" id=yboxAxis [@optionsLegendGraphicYaxis]="optionLegendGraphicYaxis8 ? 'open' : 'closed'"
+        (mouseover)="optionLegendGraphicYaxis8=true" (mouseleave)="optionLegendGraphicYaxis8=false">
+          <label class="lbl-yAxis">OPERADOR FABRIL</label>
+        </div>
+        <div class="box-yAxis" id=yboxAxis [@optionsLegendGraphicYaxis]="optionLegendGraphicYaxis9 ? 'open' : 'closed'"
+        (mouseover)="optionLegendGraphicYaxis9=true" (mouseleave)="optionLegendGraphicYaxis9=false">
+          <label class="lbl-yAxis">OPERADOR PLENO FABRIL</label>
+        </div>
+
+      </div>
+    </div>
+    <div class="divFlexbox">
+      <div class="divGraphic">
+        <ngx-charts-heat-map [view]="view" [scheme]="colorScheme" [legend]="legend" [showXAxisLabel]="false"
+          [showYAxisLabel]="false" [xAxis]="false" [yAxis]="false" [xAxisLabel]="xAxisLabel" [yAxisLabel]="yAxisLabel"
+          [results]="multi" (select)="onSelect($event)" (activate)="onActivate($event)"
+          (deactivate)="onDeactivate($event)">
+        </ngx-charts-heat-map>
+      </div>
+      <div class="xAxisLabels" >
+       
+        <div class="box-xAxisInfo">
+          <label class="lbl-xAxis"></label>
+        </div>
+        
+        <div class="box-xAxis" id=boxAxis1 [@optionsLegendGraphicXaxis]="optionLegendGraphicZaxis1 ? 'open' : 'closed'"
+        (mouseover)="optionLegendGraphicZaxis1=true" (mouseleave)="optionLegendGraphicZaxis1=false">
+          <label class="lbl-xAxis">ENCHEDORA</label>
+        </div>
+        <div class="box-xAxis" id=boxAxis [@optionsLegendGraphicXaxis]="optionLegendGraphicZaxis2 ? 'open' : 'closed'"
+        (mouseover)="optionLegendGraphicZaxis2=true" (mouseleave)="optionLegendGraphicZaxis2=false">
+          <label class="lbl-xAxis">PALETIZADORA</label>
+        </div>
+        <div class="box-xAxis" id=boxAxis [@optionsLegendGraphicXaxis]="optionLegendGraphicZaxis3 ? 'open' : 'closed'"
+        (mouseover)="optionLegendGraphicZaxis3=true" (mouseleave)="optionLegendGraphicZaxis3=false">
+          <label class="lbl-xAxis">EMPACOTADORA</label>
+        </div>
+        <div class="box-xAxis" id=boxAxis [@optionsLegendGraphicXaxis]="optionLegendGraphicZaxis4 ? 'open' : 'closed'"
+        (mouseover)="optionLegendGraphicZaxis4=true" (mouseleave)="optionLegendGraphicZaxis4=false">
+          <label class="lbl-xAxis">SALA DE VÁLVULAS</label>
+        </div>
+        <div class="box-xAxis" id=boxAxis [@optionsLegendGraphicXaxis]="optionLegendGraphicZaxis5 ? 'open' : 'closed'"
+        (mouseover)="optionLegendGraphicZaxis5=true" (mouseleave)="optionLegendGraphicZaxis5=false">
+          <label class="lbl-xAxis">LÍDER</label>
+        </div>
+        <div class="box-xAxis" id=boxAxis [@optionsLegendGraphicXaxis]="optionLegendGraphicZaxis6 ? 'open' : 'closed'"
+        (mouseover)="optionLegendGraphicZaxis6=true" (mouseleave)="optionLegendGraphicZaxis6=false">
+          <label class="lbl-xAxis">SOPRADORA</label>
+        </div>
+        <div class="box-xAxis" id=boxAxis [@optionsLegendGraphicXaxis]="optionLegendGraphicZaxis8 ? 'open' : 'closed'"
+        (mouseover)="optionLegendGraphicZaxis8=true" (mouseleave)="optionLegendGraphicZaxis8=false">
+          <label class="lbl-xAxis">ROTULADORA</label>
+        </div>
+        <div class="box-xAxis" id=boxAxis [@optionsLegendGraphicXaxis]="optionLegendGraphicZaxis9 ? 'open' : 'closed'"
+        (mouseover)="optionLegendGraphicZaxis9=true" (mouseleave)="optionLegendGraphicZaxis9=false">
+          <label class="lbl-xAxis">SUPERVISOR PET</label>
+        </div>
+        <div class="box-xAxis" id=boxAxis [@optionsLegendGraphicXaxis]="optionLegendGraphicZaxis10 ? 'open' : 'closed'"
+        (mouseover)="optionLegendGraphicZaxis10=true" (mouseleave)="optionLegendGraphicZaxis10=false">
+          <label class="lbl-xAxis">SUPERVISOR LATA</label>
+        </div>
+        <div class="box-xAxis" id=boxAxis [@optionsLegendGraphicXaxis]="optionLegendGraphicZaxis11 ? 'open' : 'closed'"
+        (mouseover)="optionLegendGraphicZaxis11=true" (mouseleave)="optionLegendGraphicZaxis11=false">
+          <label class="lbl-xAxis">STAFF PACKING /PRODUÇÃO</label>
+        </div>
+        <div class="box-xAxis" id=boxAxis [@optionsLegendGraphicXaxis]="optionLegendGraphicZaxis12 ? 'open' : 'closed'"
+        (mouseover)="optionLegendGraphicZaxis12=true" (mouseleave)="optionLegendGraphicZaxis12=false">
+          <label class="lbl-xAxis">MANUTENÇÃO</label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

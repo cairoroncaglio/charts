@@ -1,0 +1,45 @@
+<div class=bodyShape>
+
+    <div class="body-graphic-view">
+
+        <div class="divLeft">
+            <div class="box-options-graphic">
+                <div class="box-graphic">
+
+                    
+
+                   
+                        <div class="option" id="optionAlpha">
+                            <button class="box-effect" [@submenu]="optionGraphic1 ? 'open' : 'closed'"
+                            (mouseover)="optionGraphic1=true" (mouseleave)="optionGraphic1=false" id="bar"  [routerLink]="['/gestor/contingente/vertical-graphic']">
+                                 Barra
+                            </button>
+                        </div>
+                   
+                    
+                    
+                        <div class="option" >
+                            <button class="box-effect" [@submenu]="optionGraphic2 ? 'open' : 'closed'"
+                            (mouseover)="optionGraphic2=true" (mouseleave)="optionGraphic2=false" id="map"  [routerLink]="['/gestor/contingente/map-graphic']">
+                                 Mapa
+                            </button>
+                        </div>
+                    
+                    
+                    
+                        <div class="option" >
+                            <button class="box-effect" [@submenu]="optionGraphic3 ? 'open' : 'closed'"
+                            (mouseover)="optionGraphic3=true" (mouseleave)="optionGraphic3=false" id="pie"  [routerLink]="['/gestor/contingente/pie-graphic']">
+                                 Doughnout
+                            </button>
+                        </div>
+                    
+                   
+                </div>
+            </div>
+        </div>
+        <div class="divRight">
+            <router-outlet></router-outlet>
+        </div>
+       
+    </div>
